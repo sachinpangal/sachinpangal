@@ -1,0 +1,10 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+   - name: Creating user
+     user:
+      name: sachinpangal
+      state: present
+   - name: Creating another user
+     user: name=sachinpangal1 state=present shell=/bin/sh
