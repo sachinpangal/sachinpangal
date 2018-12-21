@@ -1,1 +1,1 @@
-yum telnet talk -y
+yum telnet samba -y
