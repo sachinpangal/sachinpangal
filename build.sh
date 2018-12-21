@@ -1,1 +1,1 @@
-yum install talk -y
+yum telnet talk -y
