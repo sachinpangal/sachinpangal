@@ -1,1 +1,1 @@
-yum install talk
+yum install talk -y
